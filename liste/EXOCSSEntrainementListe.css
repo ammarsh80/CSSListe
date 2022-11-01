@@ -1,0 +1,20 @@
+/* ul :nth-last-child(4) {
+    background-color: #9cf;
+}
+ul :nth-child(2) {
+    background-color: #9cf;
+}
+li:nth-last-of-type(4) {
+    background-color: #9cf;
+}
+
+ul>li+li {
+    background-color: #9cf;
+}
+
+ul>li+li+li {
+    background-color: white;
+} */
+ ul li:first-of-type+li{
+    background-color: #9cf;
+ }
